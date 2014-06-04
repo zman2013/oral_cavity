@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>口腔正畸网</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+	
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead">
+        <h3 class="text-muted">口腔正畸网</h3>
+        <ul class="nav nav-justified">
+          <li class="active"><a href="index.html">首页</a></li>
+          <li><a href="qa.html">有问必答</a></li>
+          <li><a href="menzhen_list.html">诊所医师</a></li>
+          <li><a href="jiaozheng_search.html">立刻正畸</a></li>
+          <li><a href="#">个人中心</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>有问必答 解决疑惑</h1>
+        <p class="lead">坚持奋斗一两年，破茧化蝶，迷人笑。我们承诺以客户为中心，时刻关注客户口腔健康，倾听倾诉，解决客户遇到的任何问题，与您携手一起为美丽奋斗。</p>
+        <p><a id="ask_question_button" class="btn btn-lg btn-success" href="#" role="button">我要咨询</a></p>
+      </div>
+	  <script type="text/javascript">
+		$("#ask_question_button").click(function(){
+			$("#new_question_panel").removeClass("hidden")
+		})
+	  </script>
+	  
+	  <div class="panel-group hidden" id="new_question_panel" style="margin-bottom:4px">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			  <h4 class="panel-title">
+				<a data-toggle="collapse" data-toggle="collapse" href="#collapseOne">
+				  Collapsible Group Item #1
+				</a>
+			  </h4>
+			</div>
+			<div id="collapseOne" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<form role="form">
+					  <div class="form-group">
+						<label for="questionTitle">咨询</label>
+						<input type="email" class="form-control" id="questionTitle" placeholder="标题">
+					  </div>
+					  <div class="form-group">
+						<label for="questionContent">详细内容</label>
+						<textarea class="form-control" rows="4" id="questionContent"></textarea>
+					  </div>
+					  <div class="form-group">
+						<label for="inputImage">上传图片</label>
+						<input type="file" id="inputImage">
+						<p class="help-block"></p>
+					  </div>
+					  <div class="form-group">
+					  <div class="row">
+						<!--
+						<div class="col-xs-6 col-md-2" style="max-width:140px">
+							<div class="thumbnail">
+							  <img data-src="holder.js/180x180" alt="..." src="http://img.baidu.com/img/iknow/xionghui.jpg">
+							  <div class="caption text-center" style="padding-bottom:0">
+								<a href="#" class="btn btn-default" role="button">取消</a>
+							  </div>
+							</div>
+						</div>
+						-->
+					  </div>
+					  </div>
+					  <button type="submit" class="btn btn-success">提交</button>
+					</form>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+	  
+	  <div class="panel-group">
+		  <div class="panel panel-default">
+			<div class="panel-heading">
+			  <h4 class="panel-title">
+				<a data-toggle="collapse" data-toggle="collapse" href="#collapseOne2">
+				  Collapsible Group Item #1
+				</a>
+			  </h4>
+			</div>
+			<div id="collapseOne2" class="panel-collapse collapse in">
+			  <div class="panel-body">
+			    <div class="row">
+					<div class="col-xs-6 col-md-2" style="max-width:140px">
+						<div class="thumbnail">
+						  <img data-src="holder.js/180x180" alt="..." src="http://img.baidu.com/img/iknow/xionghui.jpg">
+						  <div class="caption">
+							<h4 class="text-center">满志远</h4>
+							<p>...</p>
+						  </div>
+						</div>
+					</div>
+					<div>
+						问：Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					</div>
+					<div class="col-md-9">
+						<button type="button" class="btn btn-success pull-right">回复</button>
+					</div>
+				</div>
+			  </div>
+
+				  <div class="panel-body">
+			    <div class="row">
+					<div class="col-xs-6 col-md-2" style="max-width:140px">
+						<div class="thumbnail">
+						  <img data-src="holder.js/180x180" alt="..." src="http://img.baidu.com/img/iknow/xionghui.jpg">
+						  <div class="caption">
+							<h4 class="text-center">满志远</h4>
+							<p>...</p>
+						  </div>
+						</div>
+					</div>
+					<div>
+						答：Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					</div>
+					<div class="col-md-9">
+						<button type="button" class="btn btn-success pull-right" data-loading-text="正在加载...">回复</button>
+					</div>
+				</div>
+			  </div>
+			  
+			  <script type="text/javascript">
+				$('.btn').click(function(e){
+					$("#response_panel").addClass('show').removeClass("hidden")
+				});
+
+			  </script>
+			  
+			  
+			  
+				  <div id="response_panel" class="panel-body hidden">
+				    <form role="form">
+					  <div class="form-group">
+						<label for="questionInput">咨询</label>
+						<textarea class="form-control" rows="3" id="questionInput"></textarea>
+					  </div>
+					  <div class="form-group">
+						<label for="inputImage">上传图片</label>
+						<input type="file" id="inputImage">
+						<p class="help-block"></p>
+					  </div>
+					  <div class="form-group">
+					  <div class="row">
+						<div class="col-xs-6 col-md-2" style="max-width:140px">
+							<div class="thumbnail">
+							  <img data-src="holder.js/180x180" alt="..." src="http://img.baidu.com/img/iknow/xionghui.jpg">
+							  <div class="caption text-center" style="padding-bottom:0">
+							    <a href="#" class="btn btn-default" role="button">取消</a>
+							  </div>
+							</div>
+						</div>
+					  </div>
+					  </div>
+					  <button type="submit" class="btn btn-default">提交</button>
+					</form>
+				  </div>
+			</div>
+		  </div>
+		
+	  </div>
+
+      <!-- Site footer -->
+      <div class="footer">
+        <p>&copy; Company kouqiang</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
